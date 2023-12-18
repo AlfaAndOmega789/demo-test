@@ -10,8 +10,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7e74743-7f0e-4ee0-9a65-eaabeb25ce24" name="Changes" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/src/main/homework/homework_24/TeachMeSkills.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/classroom/class_28/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/homework/homework_29/dependecy_inversion_principle/Male.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/homework/homework_29/dependecy_inversion_principle/Move.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/homework/homework_29/dependecy_inversion_principle/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/homework/homework_29/dependecy_inversion_principle/Tom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/homework/homework_29/interface_segregation_principle/Build.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/homework/homework_29/interface_segregation_principle/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/homework/homework_29/liskov_substitution_principle/Audi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/homework/homework_29/liskov_substitution_principle/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/homework/homework_29/liskov_substitution_principle/Move.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/homework/homework_29/liskov_substitution_principle/Transport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/homework/homework_29/open_closed_principle/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/homework/homework_29/open_closed_principle/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/homework/homework_29/open_closed_principle/Move.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/homework/homework_29/single_responsibility/Cook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/homework/homework_29/single_responsibility/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/homework/homework_29/single_responsibility/Gardener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/homework/homework_29/single_responsibility/Painter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/homework/homework_29/single_responsibility/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +40,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -39,33 +57,33 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2ZDpNfZ4HxICued5WqWheFDyNf9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/User/IdeaProjects/demo-test/web/WEB-INF/web.xml",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.3045977",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/demo-test/web/WEB-INF/web.xml&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3045977&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\IdeaProjects\demo-test\src\main\homework\homework_23\task_2" />
