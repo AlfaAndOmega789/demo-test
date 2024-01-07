@@ -1,4 +1,4 @@
-package main.homework.homework_30.task_5;
+package main.homework.homework_23.task_1;
 
 public class PrototypeLesson { //любой объект который умеет клонировать себя
     public void main(String[] args) throws CloneNotSupportedException{

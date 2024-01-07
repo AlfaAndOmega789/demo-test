@@ -1,4 +1,4 @@
-package org.example.homework.homework_32.task_2;
+package main.homework.homework_32.task_2;
 
 import java.io.BufferedReader;
 import java.io.IOException;

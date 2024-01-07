@@ -1,4 +1,4 @@
-package main.homework.homework_23.task_1;
+package main.homework.homework_30.task_3;
 
 public class FactoryMethodLesson {
     public static void main(String[] args) {

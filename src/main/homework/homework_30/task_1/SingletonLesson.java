@@ -1,4 +1,4 @@
-package main.homework.homework_23.task_1;
+package main.homework.homework_30.task_1;
 
 public class SingletonLesson {
     public static void main(String[] args) {
