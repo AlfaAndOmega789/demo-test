@@ -29,7 +29,7 @@ public class User implements Cloneable{
             if(userID == userList.get(i).getUserIdDB()){
                 if(1 == levelClone){
                     User newUser = userList.get(i).clone();
-                    userList.add(newUser);
+                    System.out.println(newUser);
                     //вытянуть id юзера из бд и сделать клонирование
                 }
                 if(2 == levelClone) {
