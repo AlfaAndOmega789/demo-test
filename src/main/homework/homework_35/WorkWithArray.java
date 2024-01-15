@@ -1,6 +1,8 @@
 package main.homework.homework_35;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class WorkWithArray {
@@ -54,6 +56,12 @@ public class WorkWithArray {
     }
 
     public static String checkString(String str){ // task 3(не работает) я делаю проверку на палендром, что не корректно
+//        List<Character> list = new ArrayList<>();
+//        char[] ch = str.toCharArray();
+//        for(Character character : ch){
+//            list.add(character);
+//        }
+
         String result = "сбалансирована";
         if(str.isEmpty()){
             result = "пустая строка";
