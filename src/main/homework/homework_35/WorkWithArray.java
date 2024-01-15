@@ -20,6 +20,9 @@ public class WorkWithArray {
         System.out.println(pairs(array4));
         System.out.println(pairs(array5));
         System.out.println(pairs(array6));
+
+        String str = "()";
+        System.out.println(checkString(str));
     }
 
     public static Map<String, Boolean> wordMultiple(String[] array){
@@ -48,5 +51,30 @@ public class WorkWithArray {
         }
 
         return map;
+    }
+
+    public static String checkString(String str){ // task 3(не работает) я делаю проверку на палендром, что не корректно
+        String result = "сбалансирована";
+        if(str.isEmpty()){
+            result = "пустая строка";
+            return result;
+        }
+
+        if(str.length() % 2 != 0){
+            result = "не сбалансирована";
+            return result;
+        }
+        char[] ch = str.toCharArray();
+        int j = ch.length - 1 ;
+
+        for(int i = 0 ; i < ch.length; i++){
+
+            if(ch[i] != ch[j]){
+                result = "не сбалансирована";
+            }
+            --j;
+        }
+
+        return result;
     }
 }
