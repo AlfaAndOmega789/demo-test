@@ -5,16 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cbbb72c-1bf7-4f8c-8773-b820a3d938f8" name="Changes" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/src/main/homework/homework_31/task_1/AdapterJavaToDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/homework/homework_31/task_1/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/homework/homework_31/task_1/DatabaseRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/homework/homework_31/task_1/JavaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/lesson/lesson_36/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/lesson/lesson_36/SpringHelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/lesson/lesson_36/SpringHelloWorldRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/spring-hello-bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/homework_31/task_2/BugTracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/homework_31/task_2/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/homework_31/task_2/Job.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/homework_31/task_2/SprintRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/homework_31/task_2/WorkFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/homework_31/task_3/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/homework_31/task_3/DeveloperDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/homework_31/task_3/JavaDeveloper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/homework_31/task_3/JavaTeamLead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/homework_31/task_3/SeniorJavaDeveloper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/homework_31/task_3/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/homework_31/task_4/Activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/homework_31/task_4/Coding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/homework_31/task_4/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/homework_31/task_4/DeveloperRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/homework_31/task_4/Reading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/homework_31/task_4/Sleeping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/homework_31/task_4/Training.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,34 +53,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Unnamed.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Projects/demo-test/src/main/homework&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Unnamed.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Projects/demo-test/src/main/java/homework/homework_31",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Projects\demo-test\src\main\homework" />
@@ -179,6 +188,9 @@
       <workItem from="1704726875245" duration="6731000" />
       <workItem from="1704986023036" duration="10796000" />
       <workItem from="1705332190746" duration="5557000" />
+      <workItem from="1705511542963" duration="407000" />
+      <workItem from="1705566224355" duration="1376000" />
+      <workItem from="1705869465257" duration="391000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
