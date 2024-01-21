@@ -1,4 +1,4 @@
-package org.example.homework.homework_31.task_2;
+package homework.homework_31.task_2;
 
 public class SprintRunner {
     public static void main(String[] args) {

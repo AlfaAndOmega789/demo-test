@@ -1,4 +1,4 @@
-package org.example.homework.homework_31.task_4;
+package homework.homework_31.task_4;
 
 public class DeveloperRunner {
     public static void main(String[] args) {

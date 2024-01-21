@@ -1,4 +1,4 @@
-package org.example.homework.homework_31.task_2;
+package homework.homework_31.task_2;
 
 public class WorkFlow {
     Developer developer = new Developer();
