@@ -23,8 +23,14 @@ public class WorkWithArray {
         System.out.println(pairs(array5));
         System.out.println(pairs(array6));
 
-        String str = "()";
-        System.out.println(checkString(str));
+        String str1 = "()"; //task 3
+        String str2 = "({()[]})";
+        String str3 = "({[((())]})";
+        String str4 = "[{(())}]";
+        System.out.println(checkString(str1));
+        System.out.println(checkString(str2));
+        System.out.println(checkString(str3));
+        System.out.println(checkString(str4));
     }
 
     public static Map<String, Boolean> wordMultiple(String[] array){
@@ -55,12 +61,7 @@ public class WorkWithArray {
         return map;
     }
 
-    public static String checkString(String str){ // task 3(не работает) я делаю проверку на палендром, что не корректно
-//        List<Character> list = new ArrayList<>();
-//        char[] ch = str.toCharArray();
-//        for(Character character : ch){
-//            list.add(character);
-//        }
+    public static String checkString(String str){ // task 3
 
         String result = "сбалансирована";
         if(str.isEmpty()){
@@ -72,12 +73,22 @@ public class WorkWithArray {
             result = "не сбалансирована";
             return result;
         }
-        char[] ch = str.toCharArray();
-        int j = ch.length - 1 ;
+        char[] array = str.toCharArray();
 
-        for(int i = 0 ; i < ch.length; i++){
+        for(int i = 0; i < array.length;i++){
+            if(array[i] == ')'){
+                array[i] = '(';
+            }else if(array[i] == '}'){
+                array[i] = '{';
+            }else if(array[i] == ']'){
+                array[i] = '[';
+            }
+        }
+        int j = array.length - 1 ;
 
-            if(ch[i] != ch[j]){
+        for(int i = 0 ; i < array.length; i++){
+
+            if(array[i] != array[j]){
                 result = "не сбалансирована";
             }
             --j;
