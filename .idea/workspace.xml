@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cbbb72c-1bf7-4f8c-8773-b820a3d938f8" name="Changes" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/homework_33/mvc/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/homework_33/task_1/FrontController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/homework_33/task_3/BusinessObjectLesson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson/lesson_37/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson/lesson_37/Quoter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson/lesson_37/TerminatorQuoter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/homework_33/task_2/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/homework_33/task_2/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/homework_33/task_2/OrderSessionFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/homework_35/WorkWithArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/homework_35/WorkWithArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -60,7 +56,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/user/IdeaProjects/CryptoDES",
+    "last_opened_file_path": "C:/Projects/demo-test",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -204,7 +200,9 @@
       <workItem from="1705869465257" duration="976000" />
       <workItem from="1705923473230" duration="2792000" />
       <workItem from="1705931271489" duration="5086000" />
-      <workItem from="1706119941907" duration="2112000" />
+      <workItem from="1706119941907" duration="3883000" />
+      <workItem from="1706630103853" duration="44000" />
+      <workItem from="1707136505204" duration="2560000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -244,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705870327435</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="init commit">
+      <option name="closed" value="true" />
+      <created>1706177373293</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706177373293</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
