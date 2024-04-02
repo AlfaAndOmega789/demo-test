@@ -1,4 +1,4 @@
-package homework.homework_33.mvc;
+package homework.homework_32.mvc;
 
 public class Main {
     public static void main(String[] args) {

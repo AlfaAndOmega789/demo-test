@@ -1,4 +1,4 @@
-package homework.homework_33.task_3;
+package homework.homework_32.task_3;
 
 public class BusinessObjectLesson {
     public static void main(String[] args) {
